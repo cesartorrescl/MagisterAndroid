@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "795814913292",
+    "firebase_url": "https://predictorunab.firebaseio.com",
+    "project_id": "predictorunab",
+    "storage_bucket": "predictorunab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795814913292:android:2c000ef13b5a30f8",
+        "android_client_info": {
+          "package_name": "com.magister.unab.predictormundialista"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795814913292-2dvdrsjo0do4223n0kmne4lrvv14q85h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.magister.unab.predictormundialista",
+            "certificate_hash": "1c8fda875f02c3de891bbeb2ec91a9606849d9fc"
+          }
+        },
+        {
+          "client_id": "795814913292-v1v2fj6g165k9pmt93b5m8einskb5gut.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "795814913292-v1v2fj6g165k9pmt93b5m8einskb5gut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmUqGVz40uyF0FMVEIqhMFNVfPVtxE2ms"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795814913292-v1v2fj6g165k9pmt93b5m8einskb5gut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

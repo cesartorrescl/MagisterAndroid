@@ -9,7 +9,9 @@ public enum ModelObject {
     E(R.string.e, R.layout.grupo_e),
     F(R.string.f, R.layout.grupo_f),
     G(R.string.g, R.layout.grupo_g),
-    H(R.string.h, R.layout.grupo_h);
+    H(R.string.h, R.layout.grupo_h),
+    OCTAVOS(R.string.octavos, R.layout.octavos),
+    TAREAS(R.string.tareas, R.layout.tareas);
 
     private int mTitleResId;
     private int mLayoutResId;
