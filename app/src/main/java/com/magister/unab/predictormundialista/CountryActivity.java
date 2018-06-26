@@ -204,4 +204,9 @@ public class CountryActivity extends AppCompatActivity implements ViewPager.OnPa
             public void onCancelled(DatabaseError databaseError) {}
         });
     }
+
+    public void iniciarActivityGraficos(View view){
+        Intent intent = new Intent(this,Graficas.class);
+        startActivity(intent);
+    }
 }
