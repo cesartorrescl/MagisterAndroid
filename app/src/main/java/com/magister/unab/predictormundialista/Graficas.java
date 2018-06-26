@@ -81,7 +81,6 @@ public class Graficas extends AppCompatActivity {
         DatabaseReference resultsDB = FirebaseDatabase.getInstance().getReference().child("resultados");
 
         resultsDB.addValueEventListener(new ValueEventListener() {
-            //resultsDB.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot resultados) {
                 for (DataSnapshot respuesta: resultados.getChildren()) {
@@ -145,12 +144,6 @@ public class Graficas extends AppCompatActivity {
             public void onCancelled(DatabaseError databaseError) {}
         });
     }
-
-//    public void setGrupoN(View view){
-//        Spinner s = (Spinner) view;
-//        grupoN = s.getSelectedItemPosition();
-//        loadFromFirebase();
-//    }
 
 
     public void agregarPuntos(String pais, int grupoN){
